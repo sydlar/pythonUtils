@@ -17,6 +17,11 @@ uendelige rekker for hånden.
 
 Man kan vel også legge til at beregningskompleksiteten for ledd av høyere orden gjør 
 at mange av disse såkalt uendelige rekkene for alle praktiske formål er svært endelige.
+
+MERK: Pr. i dag (2017) håper jeg at jeg hadde skrevet dette på en annen måte. En tanke ville
+være å legge seg tettere opp til hvordan generatorer og iteratorer vanligvis behandles
+i python, d.v.s. å gjøre det på en mer idiomatisk mpte, og samtidig unngå overforbruk av 
+"magiske" funksjoner gom "__getattr__" o.l.
 """
 
 from __future__ import division
